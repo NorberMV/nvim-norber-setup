@@ -77,4 +77,6 @@ return require('packer').startup(function(use)
         -- some optional icons
         requires = { "kyazdani42/nvim-web-devicons", opt = true }
     })
+
+    use({"ThePrimeagen/harpoon"})
 end)
